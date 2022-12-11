@@ -122,6 +122,11 @@ alias gl="git log"
 alias gb="git branch"
 alias gba="git branch -a"
 alias gc="git checkout"
+alias gs="git status"
+alias gpo="git push origin"
+alias gl="git log"
+alias glo="git log --oneline"
+alias grh="git reset --hard"
 #
 #
 # tmux
