@@ -1,0 +1,5 @@
+pane	config	1	1	:*	1	:/Users/briankleiner/.config/nvim	1	zsh	:
+pane	config	2	0	:-	1	:/Users/briankleiner	1	zsh	:
+window	config	1	:nvim	1	:*	b17d,106x41,0,0,0	off
+window	config	2	:tmux	0	:-	b17e,106x41,0,0,1	off
+state	config	

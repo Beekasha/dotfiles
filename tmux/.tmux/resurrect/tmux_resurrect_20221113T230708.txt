@@ -1,0 +1,5 @@
+pane	config	1	0	:-	1	:/Users/briankleiner/.config/nvim	1	zsh	:
+pane	config	2	1	:*	1	:/Users/briankleiner/.tmux/resurrect	1	zsh	:
+window	config	1	:nvim	0	:-	b25d,80x24,0,0,0	off
+window	config	2	:tmux	1	:*	b25e,80x24,0,0,1	off
+state	config	
