@@ -1,5 +1,3 @@
-vim.opt.guicursor = ""
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -11,6 +9,9 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.smartindent = true
+
+-- Uncomment to remove blinking cursor / insert mode cursor
+-- vim.opt.guicursor = ""
 
 vim.opt.wrap = false
 -- commenting this out to make default "\" backslash leader

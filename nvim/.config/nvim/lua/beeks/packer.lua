@@ -41,6 +41,7 @@ return require("packer").startup(function(use)
     use("tomasiser/vim-code-dark")
     use("marko-cerovac/material.nvim")
     use("sainnhe/sonokai")
+    use("rebelot/kanagawa.nvim")
     -- Fancy start screen with cow
     use("mhinz/vim-startify")
 
@@ -94,20 +95,48 @@ return require("packer").startup(function(use)
 
     -- Autocomplete stuff
     -- use("ms-jpq/coq_nvim")
-    use {'neoclide/coc.nvim', branch = 'release'}
+    -- use {'neoclide/coc.nvim', branch = 'release'}
     -- use("neoclide/coc.nvim", {branch = "release"})
-    use("neoclide/coc-html")
-    use("neoclide/coc-emmet")
-    use("neoclide/coc-json")
-    use("neoclide/coc-css")
-    use("neoclide/coc-tabnine")
+    -- use("neoclide/coc-html")
+    -- use("neoclide/coc-emmet")
+    -- use("neoclide/coc-json")
+    -- use("neoclide/coc-css")
+    -- use("neoclide/coc-tabnine")
     -- This includes JS as well
-    use("neoclide/coc-tsserver")
-    use("neoclide/coc-python")
+    -- use("neoclide/coc-tsserver")
+    -- use("neoclide/coc-python")
     -- improved JS indentation+syntax highlighting
     -- use("pangloss/vim-javascript")
     use("mxw/vim-jsx")
     use("mattn/emmet-vim")
+
+
+    use("williamboman/mason.nvim")
+    use("williamboman/mason-lspconfig.nvim")
+    use {
+        'VonHeikemen/lsp-zero.nvim',
+        requires = {
+            -- LSP Support
+            {'neovim/nvim-lspconfig'},
+            {'williamboman/mason.nvim'},
+            {'williamboman/mason-lspconfig.nvim'},
+
+            -- Autocompletion
+            {'hrsh7th/nvim-cmp'},
+            {'hrsh7th/cmp-buffer'},
+            {'hrsh7th/cmp-path'},
+            {'saadparwaiz1/cmp_luasnip'},
+            {'hrsh7th/cmp-nvim-lsp'},
+            {'hrsh7th/cmp-nvim-lua'},
+
+            -- Snippets
+            {'L3MON4D3/LuaSnip'},
+            {'rafamadriz/friendly-snippets'},
+        }
+    }
+
+    -- colors on hex values
+    use("NvChad/nvim-colorizer.lua")
 
 
 
