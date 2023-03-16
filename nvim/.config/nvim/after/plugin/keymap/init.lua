@@ -23,3 +23,8 @@ nnoremap ("<C-J>", "<C-W><C-J>")
 nnoremap ("<C-K>", "<C-W><C-K>")
 nnoremap ("<C-L>", "<C-W><C-L>")
 nnoremap ("<C-H>", "<C-W><C-H>")
+-- ctrl was starting to to hurt my wittle fingers :(
+-- nnoremap ("<space>j", "<C-W><C-J>")
+-- nnoremap ("<space>k", "<C-W><C-K>")
+-- nnoremap ("<space>l", "<C-W><C-L>")
+-- nnoremap ("<space>h", "<C-W><C-H>") 

@@ -33,6 +33,7 @@ return require("packer").startup(function(use)
     -- use("gruvbox-community/gruvbox")
     -- use("morhetz/gruvbox")
     use("ellisonleao/gruvbox.nvim")
+    use("sainnhe/gruvbox-material")
     use("folke/tokyonight.nvim")
     use("olimorris/onedarkpro.nvim")
     use("edeneast/nightfox.nvim")
@@ -139,6 +140,22 @@ return require("packer").startup(function(use)
     use("NvChad/nvim-colorizer.lua")
 
 
+    use {
+        'KadoBOT/nvim-spotify', 
+        requires = 'nvim-telescope/telescope.nvim',
+        config = function()
+            local spotify = require'nvim-spotify'
+    
+            spotify.setup {
+                -- default opts
+                status = {
+                    update_interval = 10000, -- the interval (ms) to check for what's currently playing
+                    format = '%s %t by %a' -- spotify-tui --format argument
+                }
+            }
+        end,
+        run = 'make'
+    }
 
 
     -- QOL
@@ -146,6 +163,16 @@ return require("packer").startup(function(use)
     use("psliwka/vim-smoothie")
     -- line indents
     use("Yggdroot/indentLine")
+    
+    -- split resizer
+    use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
+    -- Or lazy load with `module` option. See further down for info on how to lazy load when using FocusSplit commands
+    -- Or lazy load this plugin by creating an arbitrary command using the cmd option in packer.nvim
+    -- use { 'beauwilliams/focus.nvim', cmd = { "FocusSplitNicely", "FocusSplitCycle" }, module = "focus",
+    --     config = function()
+    --         require("focus").setup({hybridnumber = true})
+    --     end
+    -- }
 
 	--[[
     --
@@ -200,4 +227,9 @@ return require("packer").startup(function(use)
 	use {'dracula/vim', as = 'dracula'}
 	end)
 	--]]
+
+    -- fun stuff
+    -- animation
+    use("eandrju/cellular-automaton.nvim")
+
 end)

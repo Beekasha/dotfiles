@@ -27,3 +27,5 @@ vim.o.splitbelow         = true
 vim.g.user_emmet_mode='n'
 -- m then , will make the tags change
 vim.g.user_emmet_leader_key='m'
+
+vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
