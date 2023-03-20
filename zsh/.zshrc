@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 alias dotconfig="nvim ~/.dotfiles"
 # alias nvimi="nvim +PackerSync"
 # # lazy.nvim init
-alias nvimi="nvim +'lua require(\"lazy\").sync({wait=true})'"
+alias nvimi="nvim . +'lua require(\"lazy\").sync({wait=true})'"
 
 
 # zsh aliases
