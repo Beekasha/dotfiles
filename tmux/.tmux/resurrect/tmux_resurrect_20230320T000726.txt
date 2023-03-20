@@ -1,0 +1,9 @@
+pane	config	1	0	:	1	:/Users/briankleiner/.dotfiles/nvim/.config/nvim	1	zsh	:
+pane	config	2	0	:	1	:/Users/briankleiner/.dotfiles/tmux/.tmux	1	zsh	:
+pane	config	3	1	:*	1	:/Users/briankleiner/.dotfiles	1	zsh	:
+pane	config	4	0	:-	1	:/Users/briankleiner	1	zsh	:
+window	config	1	:nvim	0	:	c77e,102x47,0,0,1	off
+window	config	2	:tmux	0	:	b25f,80x24,0,0,2	off
+window	config	3	:dotfiles	1	:*	c800,103x47,0,0,3	off
+window	config	4	:zsh	0	:-	c801,103x47,0,0,4	:
+state	config	
