@@ -64,6 +64,7 @@ local plugins = {
     -- },
 
     "nvim-treesitter/playground",
+    "nvim-treesitter/nvim-treesitter",
     "romgrk/nvim-treesitter-context",
 
     "mfussenegger/nvim-dap",
@@ -90,6 +91,10 @@ local plugins = {
 	"tpope/vim-surround",
 	-- multiple cursors,
 	"mg979/vim-visual-multi",
+    -- find and replace
+    "nvim-pack/nvim-spectre",
+    -- search and jump to text
+    "ggandor/leap.nvim",
 
 
     -- filetree
@@ -97,9 +102,9 @@ local plugins = {
     -- optional, for file icons
     -- "nvim-tree/nvim-web-devicons",
     -- statusline
-     {
+    {
         'nvim-lualine/lualine.nvim',
-        dependencies = { 'kyazdani42/nvim-web-devicons', opt = true }
+        dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
     },
 
     -- floating terminal
@@ -123,6 +128,19 @@ local plugins = {
     -- "pangloss/vim-javascript"
     "mxw/vim-jsx",
     "mattn/emmet-vim",
+
+
+
+    -- code formatting
+    -- prettier
+    "neovim/nvim-lspconfig",
+    "jose-elias-alvarez/null-ls.nvim",
+    "MunifTanjim/prettier.nvim",
+
+
+
+
+
 
 
     "williamboman/mason.nvim",
@@ -244,6 +262,8 @@ local plugins = {
     -- fun stuff
     -- animation
     "eandrju/cellular-automaton.nvim",
+
+
 
 
 }
