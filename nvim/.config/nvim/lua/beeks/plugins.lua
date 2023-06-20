@@ -56,6 +56,9 @@ local plugins = {
     "marko-cerovac/material.nvim",
     "sainnhe/sonokai",
     "rebelot/kanagawa.nvim",
+    "ribru17/bamboo.nvim",
+    -- Using lazy.nvim
+
     -- Fancy start screen with cow
     "mhinz/vim-startify",
 
@@ -140,6 +143,8 @@ local plugins = {
 
 
 
+    -- wiki
+    "vimwiki/vimwiki",
 
 
 
