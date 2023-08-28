@@ -11,8 +11,6 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/briankleiner/.oh-my-zsh"
 
-export PATH="$HOME/.tmux/plugins/tmuxifier/bin:$PATH"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -21,8 +19,6 @@ export PATH="$HOME/.tmux/plugins/tmuxifier/bin:$PATH"
  # ZSH_THEME="robbyrussell"
  ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME="agnoster"
-
-eval "$(tmuxifier init -)"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
