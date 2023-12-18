@@ -28,6 +28,7 @@ local plugins = {
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/cmp-buffer",
     "hrsh7th/nvim-cmp",
+    -- "ErichDonGubler/lsp_lines.nvim",
     --"tzachar/cmp-tabnine", { run = "./install.sh" }
     "onsails/lspkind-nvim",
     "nvim-lua/lsp_extensions.nvim",
@@ -138,7 +139,7 @@ local plugins = {
     -- prettier
     "neovim/nvim-lspconfig",
     "jose-elias-alvarez/null-ls.nvim",
-    "MunifTanjim/prettier.nvim",
+    -- "MunifTanjim/prettier.nvim",
 
 
 

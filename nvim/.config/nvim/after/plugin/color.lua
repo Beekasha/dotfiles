@@ -9,5 +9,6 @@ vim.g.material_style="palenight"
 vim.opt.background = "dark"
 
 -- vim.cmd("colorscheme tokyonight-moon")
-vim.cmd("colorscheme kanagawa")
+-- vim.cmd("colorscheme bamboo")
+vim.cmd("colorscheme gruvbox")
 
